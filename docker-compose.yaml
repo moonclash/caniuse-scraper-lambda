@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+
+  crawler:
+    build:
+      context: .
+    ports:
+      - 8000:8000
+    volumes:
+      - .:/crawler
+      - /crawler/node_modules
+    env_file:
+      - .env
+    command: npm run start
+  

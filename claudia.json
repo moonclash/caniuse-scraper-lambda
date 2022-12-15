@@ -1,0 +1,10 @@
+{
+  "lambda": {
+    "role": "caniuse-scraper-lambda-executor",
+    "name": "caniuse-scraper-lambda",
+    "region": "eu-west-1"
+  },
+  "api": {
+    "id": "m5fg5afuue"
+  }
+}
